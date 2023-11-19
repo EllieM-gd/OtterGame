@@ -66,19 +66,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/Shaded Red Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Shaded Red Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/96409107ae77918bbcde7a715c09e12b1b6c8ef16524b06b0d162955f1bd1a27_Shaded Red Fill Bar.png",
-          "name": "Shaded Red Fill Bar.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Wood Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -88,6 +75,618 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
           "name": "Wood Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded Blue Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded Blue Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/efb17aade7ab227ae611ea6c681413bedfaecd4b661b793675b1dd59ca941d2e_Shaded Blue Fill Bar.png",
+          "name": "Shaded Blue Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/ee4fd2266b849eecd265430afcd67d46d0571145d33eec65a72d2f671e1ef09d_Shaded Green Fill Bar.png",
+          "name": "Shaded Green Fill Bar.png"
+        }
+      },
+      {
+        "file": "DePixelIllegible.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "DePixelIllegible.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "DePixelBreit.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "DePixelBreit.otf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Summer Tile Water Waves.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Summer Tile Water Waves.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Background/00e16cdcb00f52923079a40bea539e158f1e4c55ce0b1ae3b84d61802ae3dc78_tiled_Summer Tile Water Waves.png",
+          "name": "tiled_Summer Tile Water Waves.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Summer Tile Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Summer Tile Water.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/91910f5fb077be639f7415954118355ac8dc9ad2ae61b49c04f6bcce451f7fda_tiled_Summer Tile Water.png",
+          "name": "tiled_Summer Tile Water.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Sand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Sand.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/b172907f8ae6c3d132b1c25b821256087a7834824973892dbb092bc41adfbb63_tiled_Sand.png",
+          "name": "tiled_Sand.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Belly Sliding_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Belly Sliding_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/9e3ac7aaa529a89858f249a8935e65a450bf59e15e1b681b5b93369846519e51_Penguin_Belly Sliding_1.png",
+          "name": "Penguin_Belly Sliding_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Belly Sliding_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Belly Sliding_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/3befcf169009403c15c4ab3786c42fbf518b8dc53575de5f1b6f70403f68a1d0_Penguin_Belly Sliding_2.png",
+          "name": "Penguin_Belly Sliding_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Belly Sliding_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Belly Sliding_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/8bd2f298c46152e550c38ddb4f904bf05acaeb8c9bdfbb36fcb78ab105baee54_Penguin_Belly Sliding_3.png",
+          "name": "Penguin_Belly Sliding_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Blink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Blink.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/21b9a4d62bc350bc43320187628405d47e5d03765a90c781c067f91ac9fed664_Penguin_Blink.png",
+          "name": "Penguin_Blink.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Ducking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Ducking.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/a20ac463489578379ca968be7eaf680ead0e03372698b9817d4947b973477a50_Penguin_Ducking.png",
+          "name": "Penguin_Ducking.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/381e0938e8c5d3b1014c60cb7181aec3cc88030fbbbf1e7e01bc0fa9bb4ef4ef_Penguin_Falling.png",
+          "name": "Penguin_Falling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/f7a9e5ae72356cbff8899a1bb63fdc1de5ce2a57cea796d89151e1020b7d7af1_Penguin_Hurt.png",
+          "name": "Penguin_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/53250f0308844c899e49f5c73f8e4591003b47cfc76938f1b9c2f7eee4983355_Penguin_Idle_1.png",
+          "name": "Penguin_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/115a018b51dc97213938aa13f36ae27fb23a287c41416c3c8c8ba5a520054bec_Penguin_Idle_2.png",
+          "name": "Penguin_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/be4020d3cc9d950dbf03fe0a29b45f0daff864aba81a6349f40af9f441cc2695_Penguin_Idle_3.png",
+          "name": "Penguin_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/13c8138a39ca74a53ffb02f7e2fa756434250779c6a9bb6304c4f864da438d87_Penguin_Idle_4.png",
+          "name": "Penguin_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/1c25d16d16cf2a10388e10847015012188c3cf5e1775d22768a90554376ccacf_Penguin_Idle_5.png",
+          "name": "Penguin_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Jump.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/3a4c7fdf002a36c4970c5f692ca9d0beadec5d802a8bcb901503e5f72c29b05d_Penguin_Jump.png",
+          "name": "Penguin_Jump.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Looking Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Looking Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/45483e7a9b49f07a397fb6fb3f46a339d986fef3afaaab93aa012af73eb6cc86_Penguin_Looking Off.png",
+          "name": "Penguin_Looking Off.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Looking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Looking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/cad7313e7b0b6eabf73ac72260d04f25a8b111cef9677957c41378992aaf1ebc_Penguin_Looking Up_1.png",
+          "name": "Penguin_Looking Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Looking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Looking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/434a4af09070244f0a2e0a42eb61a1b8353e82b98cb8af72f3cb065a44957284_Penguin_Looking Up_2.png",
+          "name": "Penguin_Looking Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Lying On Ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Lying On Ground.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/20af5095c463619e956b87b96637fd91a8372cf85c94fc8804ffb4be9b4de3e4_Penguin_Lying On Ground.png",
+          "name": "Penguin_Lying On Ground.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Sitting_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Sitting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/93c07040c58f2323e4d1871a38871628872d2ad0ae56e650abda33405c10e5de_Penguin_Sitting_1.png",
+          "name": "Penguin_Sitting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Sitting_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Sitting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/d670836b6188bb0dc7e712f6896febbd320d3019eb3d11cf73a468256f873872_Penguin_Sitting_2.png",
+          "name": "Penguin_Sitting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/c264aae643fd0b0272ccddcfa72bcc4c1d59165d284f10b3d1ef9165704dec0f_Penguin_Standing.png",
+          "name": "Penguin_Standing.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Surprised.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Surprised.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/2636a977b0fd244bcc93f1d12d761f920cc7d81d8f18421314bb3a3118698eee_Penguin_Surprised.png",
+          "name": "Penguin_Surprised.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Swimming_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Swimming_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/78b00be7eda115888a496c68e9671598ac408d994e992bf744e58504983fe7ae_Penguin_Swimming_1.png",
+          "name": "Penguin_Swimming_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Swimming_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Swimming_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/772983168887d23724f69969a01e38dd95d319ed9ded94c30068bd81f1805389_Penguin_Swimming_2.png",
+          "name": "Penguin_Swimming_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Swimming_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Swimming_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/02b8246a03034e07103ef4ee166036c59170e6d7710c5921994a8e48225de4fb_Penguin_Swimming_3.png",
+          "name": "Penguin_Swimming_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Swimming_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Swimming_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/a68f8304e71e066843926f96f2bb1296b0d7541bec6399fb50f73d82862a9bc9_Penguin_Swimming_4.png",
+          "name": "Penguin_Swimming_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Victory Dance_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Victory Dance_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/53250f0308844c899e49f5c73f8e4591003b47cfc76938f1b9c2f7eee4983355_Penguin_Victory Dance_1.png",
+          "name": "Penguin_Victory Dance_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Victory Dance_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Victory Dance_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/14dd875b6d37c5b3cd09c7f6eaa7fc68bef7ef815d5b9d228f152e51f8369586_Penguin_Victory Dance_2.png",
+          "name": "Penguin_Victory Dance_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Victory Dance_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Victory Dance_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/7d77e7a419d2e2c4d3f36eed630b90fa7d1869ccc7e8ea5ce8ce805687a98952_Penguin_Victory Dance_3.png",
+          "name": "Penguin_Victory Dance_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Victory Dance_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Victory Dance_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/14dd875b6d37c5b3cd09c7f6eaa7fc68bef7ef815d5b9d228f152e51f8369586_Penguin_Victory Dance_4.png",
+          "name": "Penguin_Victory Dance_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Victory Dance_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Victory Dance_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/f65918ff75fe249ce4ace0529ea256df6e821235a1e85bf638b5ccdb1369a7b3_Penguin_Victory Dance_5.png",
+          "name": "Penguin_Victory Dance_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Waddling_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Waddling_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/2c968147db1c3d79e0a21ebb94df53cb88ee0bdaf1c2600d485ed16b7ec33b08_Penguin_Waddling_1.png",
+          "name": "Penguin_Waddling_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Waddling_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Waddling_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/f595e6e22399bbb84033e34539af57e1f0347c72a0ea0f09cc0fe6faed99399a_Penguin_Waddling_2.png",
+          "name": "Penguin_Waddling_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Waddling_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Waddling_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/94dd611186297f706abb8c0203a13f83f804501db50fa74bfd11cbcab0a4d9fc_Penguin_Waddling_3.png",
+          "name": "Penguin_Waddling_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Waddling_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Waddling_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/a52222edbfef42ddc9414f217d492c4e99a4af8fd1aa2c5296cf298f29d462cd_Penguin_Waddling_4.png",
+          "name": "Penguin_Waddling_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Waddling_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Waddling_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/4046d3068cbb73563cef1188d21513c2e11b0220983766650377918a427dd771_Penguin_Waddling_5.png",
+          "name": "Penguin_Waddling_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Penguin_Waddling_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penguin_Waddling_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Penguin/2427d46b7d9d8eb7c59428c8074c2d2bfc0fa667787642ac54c6680a01b8020c_Penguin_Waddling_6.png",
+          "name": "Penguin_Waddling_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diver the Fish_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diver the Fish_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Diver the Fish/b2105fe12dba91c082d397217b253da8359a0cf6e4106f57d6767dbded8579ac_Diver the Fish_Hurt.png",
+          "name": "Diver the Fish_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diver the Fish_Swimming_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diver the Fish_Swimming_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Diver the Fish/39b1d8aaac39587947628cc7406c4995ba3d7c49c0d4ba4c2bb98d3ef546b616_Diver the Fish_Swimming_1.png",
+          "name": "Diver the Fish_Swimming_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diver the Fish_Swimming_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diver the Fish_Swimming_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Diver the Fish/e2e1767f676b36ec7203b72d49a5efefa5ca72370981a7faa1693353adc5a1fb_Diver the Fish_Swimming_2.png",
+          "name": "Diver the Fish_Swimming_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diver the Fish_Swimming_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diver the Fish_Swimming_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Diver the Fish/39b1d8aaac39587947628cc7406c4995ba3d7c49c0d4ba4c2bb98d3ef546b616_Diver the Fish_Swimming_3.png",
+          "name": "Diver the Fish_Swimming_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diver the Fish_Swimming_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diver the Fish_Swimming_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Diver the Fish/f8b5332beea1a2b49cd7105c4434d598f8f92acd3509b286b992c608f60756ed_Diver the Fish_Swimming_4.png",
+          "name": "Diver the Fish_Swimming_4.png"
         }
       }
     ],
@@ -107,6 +706,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/drawpathfinding"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
