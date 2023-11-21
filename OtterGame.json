@@ -688,6 +688,128 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Diver the Fish/f8b5332beea1a2b49cd7105c4434d598f8f92acd3509b286b992c608f60756ed_Diver the Fish_Swimming_4.png",
           "name": "Diver the Fish_Swimming_4.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock (2).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/Rock/6d07d273dc8647ea3acc6f7723fbc650d9a816d0a24aa25134baa12f5e0ca026_Rock (2).png",
+          "name": "Rock (2).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Aerial Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Aerial Attack.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/1f9088295b372e57cc2217444a5bb5247eb8806100ab49169be5eedfb0b5a43c_Chi Chi the Bird_Aerial Attack.png",
+          "name": "Chi Chi the Bird_Aerial Attack.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/9dc7356e0994b87b58e91451c48ba58ed2c5a02e2e20991714760cdff61db268_Chi Chi the Bird_Falling.png",
+          "name": "Chi Chi the Bird_Falling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Flapping Wings_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/0695fb9e00620c3e49978a912115b8ec5e4c63bfc2950b7b7ea3bb540cef0b70_Chi Chi the Bird_Flapping Wings_1.png",
+          "name": "Chi Chi the Bird_Flapping Wings_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Flapping Wings_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/aabf824203cc1da9650615de5a5302affe154a7d8f254fec183e8fdee2ce709c_Chi Chi the Bird_Flapping Wings_2.png",
+          "name": "Chi Chi the Bird_Flapping Wings_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Flapping Wings_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/d4f211f8211c81ffbaae748150b236c67a07206f1d9536e3ba86d291e2570c8b_Chi Chi the Bird_Flapping Wings_3.png",
+          "name": "Chi Chi the Bird_Flapping Wings_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/f3a2cfe7ffc611d674d316e4797b4f973de5c018d79629d825bc89681e788f24_Chi Chi the Bird_Hurt.png",
+          "name": "Chi Chi the Bird_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chi Chi the Bird_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/db7b414f5e1e6c385b901b1394fa14ee3892cd006a2c05ab96c9acd7c0790963_Chi Chi the Bird_Standing.png",
+          "name": "Chi Chi the Bird_Standing.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -697,7 +819,20 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "GameOver",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "AddScore",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -706,6 +841,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/drawpathfinding"

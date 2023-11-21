@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.35269049347712456,
+    "zoomFactor": 0.5995738389111114,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -155,7 +155,7 @@
       "depth": 1,
       "height": 54,
       "layer": "",
-      "name": "NewText",
+      "name": "Test_Text",
       "persistentUuid": "9dad7110-492a-4f3b-8c25-a64c95142247",
       "width": 170,
       "x": -522,
@@ -193,6 +193,84 @@
       "x": 2093,
       "y": 714,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "layer": "",
+      "name": "GameOverText",
+      "persistentUuid": "f0a5c652-3aa3-4c7d-959b-67f828137058",
+      "width": 742,
+      "x": 643,
+      "y": 392,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Score_Text",
+      "persistentUuid": "3ad55ead-fe50-4252-930c-ffeea3edd416",
+      "width": 0,
+      "x": 941,
+      "y": 7,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
+      "layer": "",
+      "name": "BirdSpawnPoint",
+      "persistentUuid": "4769764d-7612-4ce2-9b2f-84e2aaa4f73b",
+      "width": 160,
+      "x": -714,
+      "y": 220,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "EndPointForBird",
+      "persistentUuid": "4313ce99-1998-4323-a941-c25e8b0fe464",
+      "width": 0,
+      "x": 2182,
+      "y": 220,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 174,
+      "layer": "",
+      "name": "Warning",
+      "persistentUuid": "f4cf2826-00d7-496b-a37b-e9faa14ce20c",
+      "width": 174,
+      "x": -23,
+      "y": 197,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -428,14 +506,30 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "7cb3c7d392847d6fc12886b9d9a8e11d2995cbce59854efadc3b957ed67cb61f",
       "name": "Penguin",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Surfaced",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FlashColor",
+          "type": "Flash::FlashColor",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0,
+          "TintColor": "\"255;255;255\""
+        }
+      ],
       "animations": [
         {
           "name": "Idle",
@@ -463,20 +557,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3.5,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 13,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 13,
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3.5,
+                        "y": 14
                       }
                     ]
                   ]
@@ -499,20 +593,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3.5,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 13,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 13,
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3.5,
+                        "y": 14
                       }
                     ]
                   ]
@@ -535,20 +629,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3.5,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 13,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 13,
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3.5,
+                        "y": 14
                       }
                     ]
                   ]
@@ -571,20 +665,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3.5,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 13,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 13,
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3.5,
+                        "y": 14
                       }
                     ]
                   ]
@@ -607,20 +701,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3.5,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 13,
+                        "y": 3.5
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 13,
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3.5,
+                        "y": 14
                       }
                     ]
                   ]
@@ -655,20 +749,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -703,20 +797,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -751,20 +845,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -787,20 +881,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -823,20 +917,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -871,20 +965,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -919,20 +1013,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -967,20 +1061,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1015,20 +1109,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1063,20 +1157,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1099,20 +1193,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1147,20 +1241,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1195,20 +1289,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1231,20 +1325,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1279,20 +1373,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1327,20 +1421,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1375,20 +1469,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14.5,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14.5,
+                        "y": 12.5
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3,
+                        "y": 12.5
                       }
                     ]
                   ]
@@ -1411,20 +1505,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14.5,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14.5,
+                        "y": 12.5
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3,
+                        "y": 12.5
                       }
                     ]
                   ]
@@ -1447,20 +1541,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14.5,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14.5,
+                        "y": 12.5
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3,
+                        "y": 12.5
                       }
                     ]
                   ]
@@ -1483,20 +1577,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 3,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 1
+                        "x": 14.5,
+                        "y": 3
                       },
                       {
-                        "x": 15,
-                        "y": 16
+                        "x": 14.5,
+                        "y": 12.5
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 3,
+                        "y": 12.5
                       }
                     ]
                   ]
@@ -1531,20 +1625,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1567,20 +1661,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1603,20 +1697,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1639,20 +1733,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1675,20 +1769,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1723,20 +1817,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1759,20 +1853,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1795,20 +1889,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1831,20 +1925,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1867,20 +1961,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1903,20 +1997,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 1
+                        "y": 2
                       },
                       {
                         "x": 15,
-                        "y": 16
+                        "y": 14
                       },
                       {
-                        "x": 1,
-                        "y": 16
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -1931,7 +2025,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "Test_Text",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1954,7 +2048,14 @@
       "name": "FishSpawner",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Rand",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2174,12 +2275,12 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 900,
           "angularMaxSpeed": 180,
           "maxSpeed": 700,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "cellHeight": 20,
@@ -2396,6 +2497,939 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "GameOverText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Night",
+          "name": "Effect",
+          "doubleParameters": {
+            "intensity": 0.5,
+            "opacity": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Game Over!",
+      "font": "DePixelBreit.otf",
+      "textAlignment": "left",
+      "characterSize": 90,
+      "color": {
+        "b": 40,
+        "g": 40,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9cf517c8cb2945771d090abb3ed6bb3b6440dc26d2e39d1326239fd1f09efbf9",
+      "name": "Rock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 900,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 700,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rock (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 18
+                      },
+                      {
+                        "x": 118,
+                        "y": 18
+                      },
+                      {
+                        "x": 118,
+                        "y": 110
+                      },
+                      {
+                        "x": 10,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score: __________",
+      "font": "DePixelBreit.otf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "445c46c6f04f1551e12d8ccea31a4e75ca6dda1aea141a0d7b8aa0ba337df4bc",
+      "name": "Bird",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashColor",
+          "type": "Flash::FlashColor",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0,
+          "TintColor": "\"255;255;255\""
+        },
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 500,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Hurt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aerial Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Aerial Attack.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Falling",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Falling.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flapping Wings",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.3333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Flapping Wings_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Flapping Wings_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Flapping Wings_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Standing",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Standing.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "445c46c6f04f1551e12d8ccea31a4e75ca6dda1aea141a0d7b8aa0ba337df4bc",
+      "name": "BirdSpawnPoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Hurt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aerial Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Aerial Attack.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Falling",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Falling.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flapping Wings",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.3333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Flapping Wings_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Flapping Wings_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Flapping Wings_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Standing",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chi Chi the Bird_Standing.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 1
+                      },
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "EndPointForBird",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 14
+                      },
+                      {
+                        "x": 52,
+                        "y": 14
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 19,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Warning",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 12
+                      },
+                      {
+                        "x": 53,
+                        "y": 12
+                      },
+                      {
+                        "x": 53,
+                        "y": 60
+                      },
+                      {
+                        "x": 15,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2426,13 +3460,34 @@
         "objectName": "Penguin"
       },
       {
-        "objectName": "NewText"
+        "objectName": "Test_Text"
       },
       {
         "objectName": "FishSpawner"
       },
       {
         "objectName": "FishEnemy"
+      },
+      {
+        "objectName": "GameOverText"
+      },
+      {
+        "objectName": "Rock"
+      },
+      {
+        "objectName": "Score_Text"
+      },
+      {
+        "objectName": "Bird"
+      },
+      {
+        "objectName": "BirdSpawnPoint"
+      },
+      {
+        "objectName": "EndPointForBird"
+      },
+      {
+        "objectName": "Warning"
       }
     ]
   },
@@ -2477,7 +3532,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "NewText"
+            "Test_Text"
           ]
         },
         {
@@ -2506,8 +3561,54 @@
             "",
             "\"FishSpawner\""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GameOverText"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"ScoreTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "BirdSpawnPoint",
+            "\"BirdTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Warning"
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 251,
+        "g": 70,
+        "r": 255,
+        "textB": 255,
+        "textG": 214,
+        "textR": 20
+      },
+      "comment": "Player Controls"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2531,6 +3632,15 @@
             "Penguin",
             "<=",
             "510"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "False"
           ]
         }
       ],
@@ -2568,6 +3678,15 @@
             "<=",
             "710"
           ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "False"
+          ]
         }
       ],
       "actions": [
@@ -2589,19 +3708,20 @@
             "+",
             "10"
           ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Penguin",
-            "Animation",
-            "=",
-            "\"Looking Up\""
-          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Breath Code"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2677,6 +3797,16 @@
                 "=",
                 "\"Idle\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Penguin",
+                "Surfaced",
+                "True"
+              ]
             }
           ]
         },
@@ -2717,10 +3847,32 @@
                 "=",
                 "\"Swimming\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Penguin",
+                "Surfaced",
+                "False"
+              ]
             }
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Hunger Bar"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2770,7 +3922,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Spawn Fish"
+      "comment": "Spawn Enemies"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2840,8 +3992,19 @@
             "FishEnemy",
             "Pathfinding",
             "",
-            "NewText.X()",
-            "NewText.Y()"
+            "Test_Text.X()",
+            "Test_Text.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "FishSpawner",
+            "Rand",
+            "=",
+            "RandomInRange(0, 1)"
           ]
         },
         {
@@ -2851,6 +4014,136 @@
           "parameters": [
             "",
             "\"FishSpawner\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "FishSpawner",
+                "Rand",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "RandomFloat(1.5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Rock",
+                "FishSpawner.X()",
+                "FishSpawner.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Rock",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Rock",
+                "Pathfinding",
+                "",
+                "Test_Text.X()",
+                "Test_Text.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "FishSpawner",
+                "Rand",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "FishEnemy",
+            "Test_Text",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "FishEnemy",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Rock",
+            "Test_Text",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Rock",
+            ""
           ]
         }
       ]
@@ -2891,6 +4184,333 @@
             "+",
             "5"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "AddScore",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Penguin",
+            "Rock",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::FlashColor::Flash"
+          },
+          "parameters": [
+            "Penguin",
+            "FlashColor",
+            ".75",
+            "\"255;0;0\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Rock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "BirdSpawnPoint",
+            "\"BirdTimer\"",
+            ">=",
+            "RandomFloatInRange(5, 10)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Bird",
+            "BirdSpawnPoint.X()",
+            "BirdSpawnPoint.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Bird",
+            "Scale",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Bird",
+            "Animation",
+            "=",
+            "\"Flapping Wings\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "Warning",
+            "Flash",
+            "1.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Bird",
+            "Pathfinding",
+            "",
+            "EndPointForBird.X()",
+            "EndPointForBird.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "BirdSpawnPoint",
+            "\"BirdTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.6"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Warning"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Bird",
+            "EndPointForBird",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bird",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Bird Attacks Code"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Penguin",
+            "Surfaced",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Bird",
+            "<",
+            "Penguin.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Bird",
+            ">",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::FlashColor::Flash"
+          },
+          "parameters": [
+            "Bird",
+            "FlashColor",
+            ".5",
+            "\"181;62;248\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Bird",
+            "Pathfinding",
+            "",
+            "Penguin.X()",
+            "Penguin.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::Speed"
+          },
+          "parameters": [
+            "Bird",
+            "Pathfinding",
+            "+",
+            "200"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Bird",
+            "SummerTileWater",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bird",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Bird",
+            "Penguin",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "True"
+          ]
         }
       ]
     },
@@ -2929,6 +4549,197 @@
             "HungerBar",
             "=",
             "HungerBar.Variable(Hunger)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Score_Text",
+            "Text",
+            "=",
+            "\"Score: \" + ToString(round(TimerElapsedTime(\"ScoreTimer\")) + (GlobalVariable(AddScore) * 5))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255,
+        "textB": 0,
+        "textG": 249,
+        "textR": 255
+      },
+      "comment": "Game Over!"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+          },
+          "parameters": [
+            "BreathBar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+          },
+          "parameters": [
+            "HungerBar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Penguin",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "BreathBar",
+            "\"BreathTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"ScoreTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "HungerBar",
+            "\"HungerTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"FishSpawner\""
+          ]
+        },
+        {
+          "type": {
+            "value": "RemoveObjectTimer"
+          },
+          "parameters": [
+            "BirdSpawnPoint",
+            "\"BirdTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GameOverText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "FishEnemy",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Rock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bird",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Score_Text",
+            "GameOverText.X()",
+            "GameOverText.Y() + 125",
             ""
           ]
         }
@@ -3052,6 +4863,14 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
+      "name": "FlashColor",
+      "type": "Flash::FlashColor"
     },
     {
       "name": "Flippable",
