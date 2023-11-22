@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6622955665506428,
+    "zoomFactor": 0.30887412163426753,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -271,6 +271,52 @@
       "x": -23,
       "y": 197,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "XP_Text",
+      "persistentUuid": "a35af0e8-7195-4c6f-8da5-fba0df27cc36",
+      "width": 0,
+      "x": 1602,
+      "y": -7,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 33,
+      "height": 36,
+      "layer": "",
+      "name": "XPBar",
+      "persistentUuid": "7d881224-b653-482c-ba06-e6768c59d520",
+      "width": 354,
+      "x": 1552,
+      "y": 51,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Above layer",
+      "name": "ReplayButton",
+      "persistentUuid": "e28aa052-d9b9-4e00-a093-f83bf60887ad",
+      "width": 0,
+      "x": 853,
+      "y": 638,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1194,10 +1240,10 @@
           "TintColor": "\"255;255;255\""
         },
         {
-          "acceleration": 400,
-          "maxSpeed": 500,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "maxSpeed": 500,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -1811,6 +1857,167 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "XP_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Experience",
+      "font": "DePixelBreit.otf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "805020d83a9f62501db39c113f2b92bb91f651bb9e462ae5f83d1412c35d3d8a",
+      "name": "XPBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [
+        {
+          "folded": true,
+          "name": "CurrentXP",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "TotalXP",
+          "type": "number",
+          "value": 50
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 0,
+        "MaxValue": 50,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 8,
+          "height": 35,
+          "leftMargin": 10,
+          "rightMargin": 10,
+          "texture": "Wood Bar Border.png",
+          "tiled": true,
+          "topMargin": 8,
+          "width": 397
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Shaded Yellow Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 9,
+          "height": 19,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Shaded Yellow Fill Bar.png",
+          "tiled": false,
+          "topMargin": 9,
+          "width": 19
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+      "name": "ReplayButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Play Again",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 16,
+            "g": 38,
+            "r": 111
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1872,6 +2079,15 @@
       },
       {
         "objectName": "Shark"
+      },
+      {
+        "objectName": "XP_Text"
+      },
+      {
+        "objectName": "XPBar"
+      },
+      {
+        "objectName": "ReplayButton"
       }
     ]
   },
@@ -1978,6 +2194,14 @@
           },
           "parameters": [
             "Warning"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ReplayButton"
           ]
         }
       ]
@@ -2590,6 +2814,27 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "XP",
+            "+",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "XPBar",
+            "CurrentXP",
+            "+",
+            "5"
+          ]
         }
       ]
     },
@@ -3037,6 +3282,55 @@
             "=",
             "\"Score: \" + ToString(round(TimerElapsedTime(\"ScoreTimer\")) + (GlobalVariable(AddScore) * 5))"
           ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "XPBar",
+            "=",
+            "XPBar.Variable(CurrentXP)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+          },
+          "parameters": [
+            "XPBar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "XPBar",
+            "=",
+            "XPBar.Variable(TotalXP) + 25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "XPBar",
+            "=",
+            "0",
+            ""
+          ]
         }
       ]
     },
@@ -3244,13 +3538,105 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "Montre"
+          },
+          "parameters": [
+            "ReplayButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Score_Text",
+            "=",
+            "GameOverText.X()",
+            "=",
+            "GameOverText.Y()+125"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "ReplayButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "GameOver",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "AddScore",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "XP",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GameOverText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ReplayButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Score_Text",
+            "=",
+            "941",
+            "=",
+            "7"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "Score_Text",
-            "GameOverText.X()",
-            "GameOverText.Y() + 125",
+            "\"Untitled scene\"",
             ""
           ]
         }
