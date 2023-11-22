@@ -810,6 +810,118 @@
         "name": "NewSprite2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Otter Idle8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Otter Idle8.png\",\"extension\":\".png\"}",
+        "name": "Otter Idle8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Otter Swimming6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Otter Swimming6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite10.png\",\"extension\":\".png\"}",
+        "name": "NewSprite10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite11.png\",\"extension\":\".png\"}",
+        "name": "NewSprite11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fish Swimming3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fish Swimming3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shark2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shark2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "OtterGetFood.wav",
+        "kind": "audio",
+        "metadata": "{\"localFilePath\":\"OtterGetFood.wav\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Powerup 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":100,\\\"decay\\\":0.059181837933160786,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":0.9648346937910033,\\\"frequency\\\":800,\\\"frequencySweep\\\":100,\\\"frequencyDeltaSweep\\\":400,\\\"repeatFrequency\\\":1.2000000000000002,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":5,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":75,\\\"squareDutySweep\\\":-35,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":5233.344754324565,\\\"lowPassCutoffSweep\\\":3.0543519033746067,\\\"highPassCutoff\\\":1626.7984310682418,\\\"highPassCutoffSweep\\\":1762.903684078104,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"OtterGetFood.wav\"}}",
+        "name": "OtterGetFood.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "OtterHurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "OtterHurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "OtterSubmerge.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "OtterSubmerge.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":10,\\\"decay\\\":0.08,\\\"tremoloDepth\\\":65,\\\"tremoloFrequency\\\":0,\\\"frequency\\\":2800,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":800,\\\"repeatFrequency\\\":42.5,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":70,\\\"frequencyJump2Amount\\\":-5,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.15,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":100,\\\"vibratoFrequency\\\":19,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":5800,\\\"lowPassCutoffSweep\\\":-1700,\\\"highPassCutoff\\\":6100,\\\"highPassCutoffSweep\\\":7100,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"},\"localFilePath\":\"assets/New sound effect.wav\"}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

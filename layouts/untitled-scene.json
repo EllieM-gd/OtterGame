@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5995738389111114,
+    "zoomFactor": 0.6622955665506428,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -137,13 +137,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 11,
-      "height": 169,
+      "height": 112,
       "layer": "",
-      "name": "Penguin",
+      "name": "Otter",
       "persistentUuid": "0c64d477-b543-4f65-92a2-a1443f646d75",
-      "width": 169,
-      "x": 363,
-      "y": 510,
+      "width": 152,
+      "x": 283,
+      "y": 582,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,12 +231,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 160,
+      "depth": 1,
+      "height": 144,
       "layer": "",
       "name": "BirdSpawnPoint",
       "persistentUuid": "4769764d-7612-4ce2-9b2f-84e2aaa4f73b",
-      "width": 160,
+      "width": 146,
       "x": -714,
       "y": 220,
       "zOrder": 15,
@@ -508,7 +508,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "7cb3c7d392847d6fc12886b9d9a8e11d2995cbce59854efadc3b957ed67cb61f",
-      "name": "Penguin",
+      "name": "Otter",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -537,11 +537,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Penguin_Idle_1.png",
+                  "image": "Otter Idle8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -557,884 +558,78 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3.5,
-                        "y": 3.5
+                        "x": 3,
+                        "y": 0
                       },
                       {
-                        "x": 13,
-                        "y": 3.5
+                        "x": 18.5,
+                        "y": 0
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 18.5,
+                        "y": 19
                       },
                       {
-                        "x": 3.5,
-                        "y": 14
+                        "x": 4.5,
+                        "y": 19
                       }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Idle_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
+                    ],
                     [
                       {
-                        "x": 3.5,
-                        "y": 3.5
+                        "x": 18.5,
+                        "y": 13
                       },
                       {
-                        "x": 13,
-                        "y": 3.5
+                        "x": 35.5,
+                        "y": 9.5
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 37.5,
+                        "y": 24.5
                       },
                       {
-                        "x": 3.5,
-                        "y": 14
+                        "x": 27.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 18,
+                        "y": 27
                       }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Idle_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
+                    ],
                     [
                       {
-                        "x": 3.5,
-                        "y": 3.5
+                        "x": 6,
+                        "y": 19
                       },
                       {
-                        "x": 13,
-                        "y": 3.5
+                        "x": 18.5,
+                        "y": 19
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 18,
+                        "y": 26
                       },
                       {
-                        "x": 3.5,
-                        "y": 14
+                        "x": 11,
+                        "y": 24
                       }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Idle_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
+                    ],
                     [
                       {
-                        "x": 3.5,
-                        "y": 3.5
+                        "x": 36.5,
+                        "y": 16
                       },
                       {
-                        "x": 13,
-                        "y": 3.5
+                        "x": 48.5,
+                        "y": 10.5
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 48.5,
+                        "y": 20.5
                       },
                       {
-                        "x": 3.5,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Idle_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3.5,
-                        "y": 3.5
-                      },
-                      {
-                        "x": 13,
-                        "y": 3.5
-                      },
-                      {
-                        "x": 13,
-                        "y": 14
-                      },
-                      {
-                        "x": 3.5,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Jump",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Jump.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Hurt",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Hurt.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Belly Sliding",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.3333,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Belly Sliding_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Belly Sliding_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Belly Sliding_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Blink",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Blink.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Ducking",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Ducking.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Falling",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Falling.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Looking Off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Looking Off.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Looking Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.5,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Looking Up_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Looking Up_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Lying On Ground",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Lying On Ground.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sitting",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.5,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Sitting_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Sitting_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Standing",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Standing.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Surprised",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Surprised.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
+                        "x": 38,
+                        "y": 24.5
                       }
                     ]
                   ]
@@ -1453,7 +648,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Penguin_Swimming_1.png",
+                  "image": "Otter Swimming6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1469,548 +664,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 3
+                        "x": 4,
+                        "y": 23
                       },
                       {
-                        "x": 14.5,
-                        "y": 3
+                        "x": 63,
+                        "y": 23.5
                       },
                       {
-                        "x": 14.5,
-                        "y": 12.5
+                        "x": 63.5,
+                        "y": 36
                       },
                       {
-                        "x": 3,
-                        "y": 12.5
+                        "x": 4.5,
+                        "y": 31.5
                       }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Swimming_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
+                    ],
                     [
                       {
-                        "x": 3,
-                        "y": 3
+                        "x": 16,
+                        "y": 32.5
                       },
                       {
-                        "x": 14.5,
-                        "y": 3
+                        "x": 24,
+                        "y": 33.5
                       },
                       {
-                        "x": 14.5,
-                        "y": 12.5
+                        "x": 20,
+                        "y": 38.5
                       },
                       {
-                        "x": 3,
-                        "y": 12.5
+                        "x": 16.5,
+                        "y": 39.5
                       }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Swimming_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
+                    ],
                     [
                       {
-                        "x": 3,
-                        "y": 3
+                        "x": 38.5,
+                        "y": 34.5
                       },
                       {
-                        "x": 14.5,
-                        "y": 3
+                        "x": 45,
+                        "y": 34.5
                       },
                       {
-                        "x": 14.5,
-                        "y": 12.5
+                        "x": 43,
+                        "y": 39.5
                       },
                       {
-                        "x": 3,
-                        "y": 12.5
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Swimming_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 14.5,
-                        "y": 3
-                      },
-                      {
-                        "x": 14.5,
-                        "y": 12.5
-                      },
-                      {
-                        "x": 3,
-                        "y": 12.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Victory Dance",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.2,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Victory Dance_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Victory Dance_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Victory Dance_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Victory Dance_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Victory Dance_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Waddling",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Waddling_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Waddling_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Waddling_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Waddling_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Waddling_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Penguin_Waddling_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
+                        "x": 38.5,
+                        "y": 39
                       }
                     ]
                   ]
@@ -2266,9 +969,9 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "85285d7e0a54134816c67daaf0e0afa48f0289d97bf3f9aae0bca33a785103c4",
-      "name": "FishEnemy",
+      "name": "Fish",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2293,64 +996,17 @@
       ],
       "animations": [
         {
-          "name": "Hurt",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Diver the Fish_Hurt.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Swimming",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Diver the Fish_Swimming_1.png",
+                  "image": "Swimming2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2366,128 +1022,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 13.5,
+                        "y": 21
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 52.5,
+                        "y": 20.5
                       },
                       {
-                        "x": 16,
-                        "y": 15
+                        "x": 52.5,
+                        "y": 43.5
                       },
                       {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Diver the Fish_Swimming_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Diver the Fish_Swimming_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Diver the Fish_Swimming_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
+                        "x": 13.5,
+                        "y": 43.5
                       }
                     ]
                   ]
@@ -2540,6 +1088,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 900,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2550,10 +1100,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 700,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -2647,6 +1195,9 @@
         },
         {
           "acceleration": 400,
+          "maxSpeed": 500,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -2655,169 +1206,23 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 500,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
-        {
-          "name": "Hurt",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Hurt.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Aerial Attack",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Aerial Attack.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Falling",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Falling.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Flapping Wings",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.3333,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Flapping Wings_1.png",
+                  "image": "NewSprite10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2833,27 +1238,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 1
+                        "x": 1,
+                        "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 1
+                        "x": 38,
+                        "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 15
+                        "x": 38,
+                        "y": 33
                       },
                       {
-                        "x": 0,
-                        "y": 15
+                        "x": 1,
+                        "y": 33
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Flapping Wings_2.png",
+                  "image": "NewSprite11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2869,104 +1274,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 1
+                        "x": 1,
+                        "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 1
+                        "x": 38,
+                        "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 15
+                        "x": 38,
+                        "y": 33
                       },
                       {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Flapping Wings_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Standing",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chi Chi the Bird_Standing.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 1
-                      },
-                      {
-                        "x": 16,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
+                        "x": 1,
+                        "y": 33
                       }
                     ]
                   ]
@@ -3430,6 +1751,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Shark",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Swimming",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Shark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3457,7 +1838,7 @@
         "objectName": "Sand"
       },
       {
-        "objectName": "Penguin"
+        "objectName": "Otter"
       },
       {
         "objectName": "Test_Text"
@@ -3466,7 +1847,7 @@
         "objectName": "FishSpawner"
       },
       {
-        "objectName": "FishEnemy"
+        "objectName": "Fish"
       },
       {
         "objectName": "GameOverText"
@@ -3488,6 +1869,9 @@
       },
       {
         "objectName": "Warning"
+      },
+      {
+        "objectName": "Shark"
       }
     ]
   },
@@ -3629,7 +2013,7 @@
             "value": "PosY"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "<=",
             "510"
           ]
@@ -3650,7 +2034,7 @@
             "value": "MettreY"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "-",
             "10"
           ]
@@ -3674,7 +2058,7 @@
             "value": "PosY"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "<=",
             "710"
           ]
@@ -3695,7 +2079,7 @@
             "value": "ResetObjectTimer"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "\"moving\""
           ]
         },
@@ -3704,7 +2088,7 @@
             "value": "MettreY"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "+",
             "10"
           ]
@@ -3758,7 +2142,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "Penguin",
+                "Otter",
                 "<",
                 "570"
               ]
@@ -3792,7 +2176,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Penguin",
+                "Otter",
                 "Animation",
                 "=",
                 "\"Idle\""
@@ -3803,7 +2187,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Penguin",
+                "Otter",
                 "Surfaced",
                 "True"
               ]
@@ -3819,7 +2203,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "Penguin",
+                "Otter",
                 "<",
                 "570"
               ]
@@ -3842,7 +2226,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Penguin",
+                "Otter",
                 "Animation",
                 "=",
                 "\"Swimming\""
@@ -3853,7 +2237,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Penguin",
+                "Otter",
                 "Surfaced",
                 "False"
               ]
@@ -3946,7 +2330,7 @@
           },
           "parameters": [
             "",
-            "FishEnemy",
+            "Fish",
             "FishSpawner.X()",
             "FishSpawner.Y()",
             ""
@@ -3957,9 +2341,9 @@
             "value": "FlippableCapability::FlippableBehavior::FlipX"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             "Flippable",
-            "yes"
+            "no"
           ]
         },
         {
@@ -3967,7 +2351,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             "Animation",
             "=",
             "\"Swimming\""
@@ -3978,10 +2362,10 @@
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             "Scale",
             "=",
-            "7"
+            "3"
           ]
         },
         {
@@ -3989,7 +2373,7 @@
             "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             "Pathfinding",
             "",
             "Test_Text.X()",
@@ -4100,7 +2484,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             "Test_Text",
             "",
             "",
@@ -4114,7 +2498,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             ""
           ]
         }
@@ -4156,8 +2540,8 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Penguin",
-            "FishEnemy",
+            "Otter",
+            "Fish",
             "",
             "",
             ""
@@ -4170,7 +2554,19 @@
             "value": "Delete"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "OtterGetFood.wav",
+            "no",
+            "50",
             ""
           ]
         },
@@ -4205,7 +2601,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "Rock",
             "",
             "",
@@ -4219,7 +2615,7 @@
             "value": "Flash::FlashColor::Flash"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "FlashColor",
             ".75",
             "\"255;0;0\"",
@@ -4242,6 +2638,18 @@
           "parameters": [
             "GameOver",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "OtterHurt.wav",
+            "",
+            "75",
+            ""
           ]
         }
       ]
@@ -4282,7 +2690,7 @@
             "Bird",
             "Scale",
             "=",
-            "10"
+            "3"
           ]
         },
         {
@@ -4394,7 +2802,7 @@
             "value": "ObjectVariableAsBoolean"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "Surfaced",
             "True"
           ]
@@ -4406,7 +2814,7 @@
           "parameters": [
             "Bird",
             "<",
-            "Penguin.X()"
+            "Otter.X()"
           ]
         },
         {
@@ -4441,8 +2849,8 @@
             "Bird",
             "Pathfinding",
             "",
-            "Penguin.X()",
-            "Penguin.Y()"
+            "Otter.X()",
+            "Otter.Y()"
           ]
         },
         {
@@ -4454,6 +2862,61 @@
             "Pathfinding",
             "+",
             "200"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Otter",
+            "Surfaced",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Bird",
+            "<",
+            "Otter.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Bird",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "New sound effect",
+            "",
+            "50",
+            ""
           ]
         }
       ]
@@ -4495,7 +2958,7 @@
           },
           "parameters": [
             "Bird",
-            "Penguin",
+            "Otter",
             "",
             "",
             "yes"
@@ -4510,6 +2973,18 @@
           "parameters": [
             "GameOver",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "OtterHurt.wav",
+            "",
+            "75",
+            ""
           ]
         }
       ]
@@ -4588,6 +3063,12 @@
             "BreathBar",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4598,6 +3079,18 @@
           "parameters": [
             "GameOver",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "OtterHurt.wav",
+            "",
+            "75",
+            ""
           ]
         }
       ]
@@ -4613,6 +3106,12 @@
             "HungerBar",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4623,6 +3122,18 @@
           "parameters": [
             "GameOver",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "OtterHurt.wav",
+            "",
+            "75",
+            ""
           ]
         }
       ]
@@ -4646,7 +3157,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
           },
           "parameters": [
-            "Penguin",
+            "Otter",
             "Animation"
           ]
         },
@@ -4709,7 +3220,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "FishEnemy",
+            "Fish",
             ""
           ]
         },
