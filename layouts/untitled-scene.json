@@ -315,8 +315,23 @@
       "persistentUuid": "e28aa052-d9b9-4e00-a093-f83bf60887ad",
       "width": 0,
       "x": 853,
-      "y": 638,
+      "y": 734,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Above layer",
+      "name": "HighScoreText",
+      "persistentUuid": "f1a45831-b5b5-4937-be9d-0d95c9531be7",
+      "width": 0,
+      "x": 643,
+      "y": 623,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2018,6 +2033,27 @@
           "width": 256
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HighScoreText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "High Score: ",
+      "font": "DePixelBreit.otf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2079,6 +2115,9 @@
       },
       {
         "objectName": "Shark"
+      },
+      {
+        "objectName": "HighScoreText"
       },
       {
         "objectName": "XP_Text"
@@ -2202,6 +2241,14 @@
           },
           "parameters": [
             "ReplayButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HighScoreText"
           ]
         }
       ]
@@ -3323,13 +3370,13 @@
         },
         {
           "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+            "value": "ModVarObjet"
           },
           "parameters": [
             "XPBar",
+            "CurrentXP",
             "=",
-            "0",
-            ""
+            "0"
           ]
         }
       ]
@@ -3428,6 +3475,33 @@
             "",
             "75",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::CompareNumbers"
+          },
+          "parameters": [
+            "round(TimerElapsedTime(\"ScoreTimer\"))",
+            ">",
+            "HighScore"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "HighScore",
+            "=",
+            "round(TimerElapsedTime(\"ScoreTimer\"))"
           ]
         }
       ]
@@ -3556,6 +3630,26 @@
             "=",
             "GameOverText.Y()+125"
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HighScoreText",
+            "Text",
+            "=",
+            "\"High Score: \" + ToString(HighScore)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HighScoreText",
+            ""
+          ]
         }
       ]
     },
@@ -3638,6 +3732,14 @@
             "",
             "\"Untitled scene\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HighScoreText"
           ]
         }
       ]

@@ -1001,6 +1001,12 @@
       "name": "XP",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "HighScore",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
