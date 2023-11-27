@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30887412163426753,
+    "zoomFactor": 0.45985214267363705,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3487,7 +3487,7 @@
             "value": "BuiltinCommonInstructions::CompareNumbers"
           },
           "parameters": [
-            "round(TimerElapsedTime(\"ScoreTimer\"))",
+            "round(TimerElapsedTime(\"ScoreTimer\")) + (GlobalVariable(AddScore) * 5)",
             ">",
             "HighScore"
           ]
@@ -3501,7 +3501,7 @@
           "parameters": [
             "HighScore",
             "=",
-            "round(TimerElapsedTime(\"ScoreTimer\"))"
+            "round(TimerElapsedTime(\"ScoreTimer\")) + (GlobalVariable(AddScore) * 5)"
           ]
         }
       ]
