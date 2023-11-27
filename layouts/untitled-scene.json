@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45985214267363705,
+    "zoomFactor": 0.4448515998886689,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2297,6 +2297,15 @@
             "GameOver",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Pause",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -2341,6 +2350,15 @@
           "parameters": [
             "GameOver",
             "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Pause",
+            ""
           ]
         }
       ],
@@ -3740,6 +3758,218 @@
           },
           "parameters": [
             "HighScoreText"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Pause",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"FishSpawner\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "BreathBar",
+            "\"BreathTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"ScoreTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "HungerBar",
+            "\"HungerTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "BirdSpawnPoint",
+            "\"BirdTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Bird",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Rock",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Fish",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Pause",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"FishSpawner\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseObjectTimer"
+          },
+          "parameters": [
+            "BreathBar",
+            "\"BreathTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"ScoreTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseObjectTimer"
+          },
+          "parameters": [
+            "BirdSpawnPoint",
+            "\"BirdTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseObjectTimer"
+          },
+          "parameters": [
+            "HungerBar",
+            "\"HungerTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Bird",
+            "Pathfinding",
+            "=",
+            "500"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Rock",
+            "Pathfinding",
+            "=",
+            "700"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Fish",
+            "Pathfinding",
+            "=",
+            "700"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Pause"
           ]
         }
       ]
