@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8635277700824046,
+    "zoomFactor": 0.4448515998886689,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,15 +26,14 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 37,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "name": "BreathBar",
       "persistentUuid": "615d0e51-3745-4c0a-8ea3-392c4f0a1e30",
-      "width": 119,
-      "x": 100,
-      "y": 49,
+      "width": 0,
+      "x": 109,
+      "y": 51,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +47,8 @@
       "name": "HungerBar",
       "persistentUuid": "89e35087-df0b-4a41-a005-649fc7d2311d",
       "width": 0,
-      "x": 409,
-      "y": 61,
+      "x": 528,
+      "y": 51,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,8 +63,8 @@
       "name": "HungerText",
       "persistentUuid": "9b1bf453-7ebe-48f1-8d8b-d7e60cd764e6",
       "width": 204,
-      "x": 511,
-      "y": 3,
+      "x": 636,
+      "y": -7,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,8 +78,8 @@
       "name": "BreathText",
       "persistentUuid": "0f9b7dce-c08f-42db-8bf9-d30680f93c18",
       "width": 0,
-      "x": 115,
-      "y": 20,
+      "x": 221,
+      "y": -7,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,8 +221,8 @@
       "name": "Score_Text",
       "persistentUuid": "3ad55ead-fe50-4252-930c-ffeea3edd416",
       "width": 0,
-      "x": 834,
-      "y": 12,
+      "x": 941,
+      "y": 7,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -284,8 +283,8 @@
       "name": "XP_Text",
       "persistentUuid": "a35af0e8-7195-4c6f-8da5-fba0df27cc36",
       "width": 0,
-      "x": 66,
-      "y": 4,
+      "x": 1602,
+      "y": -7,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,13 +294,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 33,
-      "height": 35,
+      "height": 36,
       "layer": "",
       "name": "XPBar",
       "persistentUuid": "7d881224-b653-482c-ba06-e6768c59d520",
-      "width": 397,
-      "x": 4,
-      "y": 62,
+      "width": 354,
+      "x": 1552,
+      "y": 51,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -333,52 +332,6 @@
       "x": 643,
       "y": 623,
       "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "StartPointForShark",
-      "persistentUuid": "d3356829-6a65-4c0f-81d3-0b69c3afd086",
-      "width": 0,
-      "x": 2922,
-      "y": 620,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "EndPointForShark",
-      "persistentUuid": "5ed4e1fb-409d-4aac-8ba5-2a250d7444b9",
-      "width": 0,
-      "x": -799,
-      "y": 620,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 3,
-      "height": 189,
-      "layer": "",
-      "name": "SharkWarning",
-      "persistentUuid": "a0cca25f-bd8b-4110-92a9-8cd01713a623",
-      "width": 189,
-      "x": 1740,
-      "y": 663,
-      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -573,7 +526,7 @@
       "string": "Breath",
       "font": "DePixelBreit.otf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -625,18 +578,6 @@
           "name": "Surfaced",
           "type": "boolean",
           "value": true
-        },
-        {
-          "folded": true,
-          "name": "Jump",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
-          "name": "Level",
-          "type": "number",
-          "value": 1
         }
       ],
       "effects": [],
@@ -877,12 +818,6 @@
           "name": "Rand",
           "type": "number",
           "value": 0
-        },
-        {
-          "folded": true,
-          "name": "GoldNext",
-          "type": "boolean",
-          "value": false
         }
       ],
       "effects": [],
@@ -1886,24 +1821,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "acceleration": 800,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "cellHeight": 20,
-          "cellWidth": 20,
-          "extraBorder": 0,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "maxSpeed": 2000,
-          "name": "Pathfinding",
-          "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "Swimming",
@@ -2136,301 +2054,6 @@
         "g": 0,
         "r": 0
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "StartPointForShark",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 14
-                      },
-                      {
-                        "x": 52,
-                        "y": 14
-                      },
-                      {
-                        "x": 52,
-                        "y": 54
-                      },
-                      {
-                        "x": 19,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "EndPointForShark",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 14
-                      },
-                      {
-                        "x": 52,
-                        "y": 14
-                      },
-                      {
-                        "x": 52,
-                        "y": 54
-                      },
-                      {
-                        "x": 19,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "SharkWarning",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash",
-          "HalfPeriodTime": 0.1,
-          "IsFlashing": false,
-          "FlashDuration": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 12
-                      },
-                      {
-                        "x": 53,
-                        "y": 12
-                      },
-                      {
-                        "x": 53,
-                        "y": 60
-                      },
-                      {
-                        "x": 15,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "85285d7e0a54134816c67daaf0e0afa48f0289d97bf3f9aae0bca33a785103c4",
-      "name": "GoldFish",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 15
-          },
-          "stringParameters": {
-            "color": "255;220;80"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Glow",
-          "name": "Effect2",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;107"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 900,
-          "angularMaxSpeed": 180,
-          "maxSpeed": 700,
-          "rotateObject": false,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "cellHeight": 20,
-          "cellWidth": 20,
-          "extraBorder": 0,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "smoothingMaxCellGap": 1
-        }
-      ],
-      "animations": [
-        {
-          "name": "Swimming",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.2,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Swimming2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 21
-                      },
-                      {
-                        "x": 52.5,
-                        "y": 20.5
-                      },
-                      {
-                        "x": 52.5,
-                        "y": 43.5
-                      },
-                      {
-                        "x": 13.5,
-                        "y": 43.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2470,9 +2093,6 @@
         "objectName": "Fish"
       },
       {
-        "objectName": "GoldFish"
-      },
-      {
         "objectName": "GameOverText"
       },
       {
@@ -2491,16 +2111,7 @@
         "objectName": "EndPointForBird"
       },
       {
-        "objectName": "StartPointForShark"
-      },
-      {
-        "objectName": "EndPointForShark"
-      },
-      {
         "objectName": "Warning"
-      },
-      {
-        "objectName": "SharkWarning"
       },
       {
         "objectName": "Shark"
@@ -2639,14 +2250,6 @@
           "parameters": [
             "HighScoreText"
           ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "SharkWarning"
-          ]
         }
       ]
     },
@@ -2762,115 +2365,16 @@
       "actions": [
         {
           "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Otter",
+            "\"moving\""
+          ]
+        },
+        {
+          "type": {
             "value": "MettreY"
-          },
-          "parameters": [
-            "Otter",
-            "+",
-            "10"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"a\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Otter",
-            ">=",
-            "150"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "GameOver",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Pause",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Otter",
-            "-",
-            "10"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"d\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "Otter",
-            "<=",
-            "800"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "GameOver",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Pause",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreX"
           },
           "parameters": [
             "Otter",
@@ -2886,201 +2390,6 @@
         "b": 109,
         "g": 230,
         "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Jump Function (NEEDS WORK UGH)"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Space"
-          ]
-        },
-        {
-          "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Otter",
-            "Surfaced",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Pause",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "GameOver",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Otter",
-            "Jump",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Otter",
-            "Jump",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "Otter",
-            "-",
-            "50"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.0125"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "Otter",
-            "-",
-            "50"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.0125"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "Otter",
-            "-",
-            "50"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "Otter",
-            "<",
-            "495"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "GameOver",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Pause",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "Otter",
-            "+",
-            "4"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "PosY"
-          },
-          "parameters": [
-            "Otter",
-            "<",
-            "495"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Otter",
-            "Jump",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 255,
-        "g": 192,
-        "r": 29,
         "textB": 0,
         "textG": 0,
         "textR": 0
@@ -3229,150 +2538,6 @@
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "b": 255,
-        "g": 169,
-        "r": 65,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Breath Bar"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreAutour"
-          },
-          "parameters": [
-            "BreathBar",
-            "Otter",
-            "75",
-            "270"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreAutour"
-          },
-          "parameters": [
-            "BreathText",
-            "BreathBar",
-            "32",
-            "270"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Otter",
-            "Surfaced",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
-          },
-          "parameters": [
-            "BreathBar",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "BreathBar"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "BreathText"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Otter",
-                "Surfaced",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
-              },
-              "parameters": [
-                "BreathBar",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "BreathBar",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "BreathText",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
         "b": 109,
         "g": 230,
         "r": 255,
@@ -3437,123 +2602,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "StartPointForShark",
-            "\"SharkTimer\"",
-            ">=",
-            "RandomFloatInRange(7, 25)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "StartPointForShark",
-            "\"SharkTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Flash::Flash::Flash"
-          },
-          "parameters": [
-            "SharkWarning",
-            "Flash",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "SharkWarning"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Shark",
-            "StartPointForShark.X()",
-            "StartPointForShark.Y()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "Shark",
-            "Scale",
-            "=",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Shark",
-            "Pathfinding",
-            "",
-            "EndPointForShark.X()",
-            "EndPointForShark.Y()"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Shark",
-            "Otter",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "GameOver",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "CompareTimer"
           },
           "parameters": [
@@ -3561,16 +2609,6 @@
             "\"FishSpawner\"",
             ">=",
             "RandomFloatInRange(3.0, 5.0)"
-          ]
-        },
-        {
-          "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "FishSpawner",
-            "GoldNext",
-            "False"
           ]
         }
       ],
@@ -3639,7 +2677,7 @@
             "FishSpawner",
             "Rand",
             "=",
-            "RandomInRange(0, 9)"
+            "RandomInRange(0, 1)"
           ]
         },
         {
@@ -3663,8 +2701,8 @@
               "parameters": [
                 "FishSpawner",
                 "Rand",
-                ">",
-                "4"
+                "=",
+                "1"
               ]
             }
           ],
@@ -3724,137 +2762,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "FishSpawner",
-                "Rand",
-                "=",
-                "9"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "FishSpawner",
-                "GoldNext",
-                "True"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"FishSpawner\"",
-            ">=",
-            "RandomFloatInRange(3.0, 5.0)"
-          ]
-        },
-        {
-          "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "FishSpawner",
-            "GoldNext",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "GoldFish",
-            "FishSpawner.X()",
-            "FishSpawner.Y()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "FlippableCapability::FlippableBehavior::FlipX"
-          },
-          "parameters": [
-            "GoldFish",
-            "Flippable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "GoldFish",
-            "Animation",
-            "=",
-            "\"Swimming\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "GoldFish",
-            "Scale",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "GoldFish",
-            "Pathfinding",
-            "",
-            "Test_Text.X()",
-            "Test_Text.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"FishSpawner\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "FishSpawner",
-            "GoldNext",
-            "False"
-          ]
         }
       ]
     },
@@ -3881,34 +2788,6 @@
           },
           "parameters": [
             "Fish",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "GoldFish",
-            "Test_Text",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "GoldFish",
             ""
           ]
         }
@@ -3998,7 +2877,7 @@
           "parameters": [
             "AddScore",
             "+",
-            "5"
+            "1"
           ]
         },
         {
@@ -4020,88 +2899,6 @@
             "CurrentXP",
             "+",
             "5"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Otter",
-            "GoldFish",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "GoldFish",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "OtterGetFood.wav",
-            "no",
-            "50",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "HungerBar",
-            "Hunger",
-            "+",
-            "8"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "AddScore",
-            "+",
-            "5"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "XP",
-            "+",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "XPBar",
-            "CurrentXP",
-            "+",
-            "10"
           ]
         }
       ]
@@ -4599,52 +3396,6 @@
             "=",
             "0"
           ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "Otter",
-            "Level",
-            "+",
-            "1"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Otter",
-                "Level",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "StartPointForShark",
-                "\"SharkTimer\""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -4830,15 +3581,6 @@
           "parameters": [
             "",
             "\"FishSpawner\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PauseObjectTimer"
-          },
-          "parameters": [
-            "StartPointForShark",
-            "\"SharkTimer\""
           ]
         },
         {
@@ -5031,12 +3773,6 @@
             "Pause",
             "True"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -5131,12 +3867,6 @@
             "Pause",
             "False"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
