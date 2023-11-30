@@ -1071,6 +1071,573 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Button/x128/Dark Light/47ff3993f5d90ad8d90435ee52991fbfbcbe38c05d3662a8711250fde06590b9_X Button.png",
           "name": "X Button.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle21.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Idle21.png\",\"extension\":\".png\"}",
+        "name": "Idle21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle.png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle2.png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle3.png\"}",
+        "name": "Idle3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle4.png\"}",
+        "name": "Idle4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle5.png\"}",
+        "name": "Idle5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle6.png\"}",
+        "name": "Idle6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle7.png\"}",
+        "name": "Idle7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming30.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming30.png\",\"extension\":\".png\"}",
+        "name": "Swimming30.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming28.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming28.png\",\"extension\":\".png\"}",
+        "name": "Swimming28.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming29.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming29.png\",\"extension\":\".png\"}",
+        "name": "Swimming29.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming26.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming27.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming19.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming19.png\",\"extension\":\".png\"}",
+        "name": "Swimming19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Swimming16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming23.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming23.png\",\"extension\":\".png\"}",
+        "name": "Swimming23.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming3.png\"}",
+        "name": "Swimming3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming4.png\"}",
+        "name": "Swimming4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming5.png\"}",
+        "name": "Swimming5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming6.png\"}",
+        "name": "Swimming6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming7.png\"}",
+        "name": "Swimming7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite4.png\",\"extension\":\".png\"}",
+        "name": "NewSprite4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite5.png\",\"extension\":\".png\"}",
+        "name": "NewSprite5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite6.png\",\"extension\":\".png\"}",
+        "name": "NewSprite6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite7.png\",\"extension\":\".png\"}",
+        "name": "NewSprite7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite8.png\",\"extension\":\".png\"}",
+        "name": "NewSprite8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite9.png\",\"extension\":\".png\"}",
+        "name": "NewSprite9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite12.png\",\"extension\":\".png\"}",
+        "name": "NewSprite12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming34.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming34.png\",\"extension\":\".png\"}",
+        "name": "Swimming34.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming35.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming35.png\",\"extension\":\".png\"}",
+        "name": "Swimming35.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming8.png\"}",
+        "name": "Swimming8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming9.png\"}",
+        "name": "Swimming9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming10.png\"}",
+        "name": "Swimming10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming11.png\"}",
+        "name": "Swimming11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming12.png\"}",
+        "name": "Swimming12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Swimming13.png\"}",
+        "name": "Swimming13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Swimming36.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Swimming36.png\",\"extension\":\".png\"}",
+        "name": "Swimming36.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Attack.png\",\"extension\":\".png\"}",
+        "name": "Attack.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Attack2.png\",\"extension\":\".png\"}",
+        "name": "Attack2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Attack3.png\",\"extension\":\".png\"}",
+        "name": "Attack3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Attack4.png\",\"extension\":\".png\"}",
+        "name": "Attack4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Attack5.png\",\"extension\":\".png\"}",
+        "name": "Attack5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Attack6.png\",\"extension\":\".png\"}",
+        "name": "Attack6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Speed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speed",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunger.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunger",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

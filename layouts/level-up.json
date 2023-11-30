@@ -32,7 +32,7 @@
       "name": "Title_Text",
       "persistentUuid": "df6f2e74-9e7d-4179-8492-479ca57e7d87",
       "width": 0,
-      "x": 250,
+      "x": 237,
       "y": 30,
       "zOrder": 1,
       "numberProperties": [],
@@ -48,8 +48,8 @@
       "name": "Speed_Button",
       "persistentUuid": "fa5adb21-e143-4ccf-bf6f-6f9ae3acde37",
       "width": 423,
-      "x": 50,
-      "y": 325,
+      "x": 10,
+      "y": 323,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,8 +64,8 @@
       "name": "Max_Breath_Button",
       "persistentUuid": "4660a79d-4cc8-48be-86c7-156fbc02bcc6",
       "width": 418,
-      "x": 520,
-      "y": 325,
+      "x": 480,
+      "y": 323,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,9 +80,9 @@
       "name": "Max_Hunger_Button",
       "persistentUuid": "063e31ac-5cf0-4eff-9629-8a6fe70dd78f",
       "width": 426,
-      "x": 985,
-      "y": 325,
-      "zOrder": 4,
+      "x": 945,
+      "y": 323,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -96,8 +96,8 @@
       "name": "Hunger_Gained_Button",
       "persistentUuid": "249f040a-0634-43f0-bd48-bf89a169d1cb",
       "width": 421,
-      "x": 1450,
-      "y": 325,
+      "x": 1412,
+      "y": 323,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,8 +111,8 @@
       "name": "Speed_Text",
       "persistentUuid": "dc564bb3-022f-45b2-a26b-43390996485e",
       "width": 0,
-      "x": 80,
-      "y": 465,
+      "x": 40,
+      "y": 463,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -126,8 +126,8 @@
       "name": "Breath_Text",
       "persistentUuid": "9637f626-ff3d-4635-8768-2c9377b8e268",
       "width": 0,
-      "x": 572,
-      "y": 465,
+      "x": 532,
+      "y": 463,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,9 +141,9 @@
       "name": "Max_Hunger_Text",
       "persistentUuid": "8856f1d5-4055-4e01-b5a8-49cf36c43071",
       "width": 0,
-      "x": 1041,
-      "y": 465,
-      "zOrder": 8,
+      "x": 998,
+      "y": 464,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -156,9 +156,73 @@
       "name": "Hunger_Filled_Text",
       "persistentUuid": "84f3aeea-19c1-4940-a556-3370f84576f5",
       "width": 0,
-      "x": 1458,
-      "y": 465,
+      "x": 1418,
+      "y": 463,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 193,
+      "layer": "",
+      "name": "Bubbles",
+      "persistentUuid": "253f3058-77a5-457e-8067-168ef0f1580e",
+      "width": 191,
+      "x": 594,
+      "y": 336,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 121,
+      "layer": "",
+      "name": "SpeedSprite",
+      "persistentUuid": "2be6bade-db59-4031-b6e4-634532326da4",
+      "width": 128,
+      "x": 150,
+      "y": 348,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 207,
+      "layer": "",
+      "name": "HungerImproved",
+      "persistentUuid": "49c5873d-a7cb-4978-8e3b-611cb51568b0",
+      "width": 215,
+      "x": 1519,
+      "y": 301,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "layer": "",
+      "name": "MaxHunger",
+      "persistentUuid": "53307aa9-7a36-4a93-9936-737afcaa1286",
+      "width": 125,
+      "x": 1092,
+      "y": 362,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -521,6 +585,250 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bubbles",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 16
+                      },
+                      {
+                        "x": 40,
+                        "y": 16
+                      },
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 21,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpeedSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Speed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speed",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 45,
+                        "y": 8
+                      },
+                      {
+                        "x": 45,
+                        "y": 55
+                      },
+                      {
+                        "x": 16,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HungerImproved",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 20
+                      },
+                      {
+                        "x": 38,
+                        "y": 20
+                      },
+                      {
+                        "x": 38,
+                        "y": 38
+                      },
+                      {
+                        "x": 13,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MaxHunger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Hunger",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunger",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 11
+                      },
+                      {
+                        "x": 23,
+                        "y": 11
+                      },
+                      {
+                        "x": 23,
+                        "y": 20
+                      },
+                      {
+                        "x": 8,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -552,6 +860,18 @@
       },
       {
         "objectName": "Hunger_Filled_Text"
+      },
+      {
+        "objectName": "Bubbles"
+      },
+      {
+        "objectName": "SpeedSprite"
+      },
+      {
+        "objectName": "HungerImproved"
+      },
+      {
+        "objectName": "MaxHunger"
       }
     ]
   },
@@ -588,7 +908,7 @@
                 "Breath_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"maximum\" + NewLine() + \"breath\" + NewLine() + NewLine() +\"Current: \" + ToString(Breath) + NewLine() + \"New: \" + ToString(Breath)"
+                "\"Increase\" + NewLine() + \"maximum\" + NewLine() + \"breath\" + NewLine() + NewLine() +\"Current: \" + ToString(Breath) + NewLine() + \"New: \" + ToString(Breath + 4)"
               ]
             },
             {
@@ -599,7 +919,7 @@
                 "Max_Hunger_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"maximum\" + NewLine() + \"hunger\" + NewLine() + NewLine() + \"Current: \" + ToString(Hunger) + NewLine() + \"New: \" + ToString(Hunger)"
+                "\"Increase\" + NewLine() + \"maximum\" + NewLine() + \"hunger\" + NewLine() + NewLine() + \"Current: \" + ToString(Hunger) + NewLine() + \"New: \" + ToString(Hunger + 4)"
               ]
             },
             {
@@ -610,7 +930,7 @@
                 "Hunger_Filled_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"hunger gained\" + NewLine() + \"from fish\" + NewLine() + NewLine() + \"Current: \" + ToString(HungerFilled) + NewLine() + \"New: \" + ToString(HungerFilled)"
+                "\"Increase\" + NewLine() + \"hunger gained\" + NewLine() + \"from fish\" + NewLine() + NewLine() + \"Current: \" + ToString(HungerFilled) + NewLine() + \"New: \" + ToString(HungerFilled + 1)"
               ]
             }
           ]
@@ -877,6 +1197,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
