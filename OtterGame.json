@@ -1175,7 +1175,7 @@
         "alwaysLoaded": false,
         "file": "Swimming26.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Swimming26.png\",\"extension\":\".png\"}",
         "name": "Swimming26.png",
         "smoothed": false,
         "userAdded": true
@@ -1638,6 +1638,781 @@
         "name": "Hunger",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Empty Cloud Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Empty Cloud Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/1835a8e778f048485605f0cecdca221dccb5d4b05821f101c1fc05d239f422b2_tiled_Empty Cloud Background.png",
+          "name": "tiled_Empty Cloud Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Mountain Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Mountain Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Background/09cbcd7820a5bd5869092a8af122db07c9e09465f69f83ccdebd4d122c724f49_tiled_Mountain Background.png",
+          "name": "tiled_Mountain Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e72917b816e003b351cb01bdf504dbe4bd565e6dde15a780269c68a216a1b268_9patch_sand_north.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Tiles/e72917b816e003b351cb01bdf504dbe4bd565e6dde15a780269c68a216a1b268_9patch_sand_north.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6d07d273dc8647ea3acc6f7723fbc650d9a816d0a24aa25134baa12f5e0ca026_Rock (2).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/Rock/6d07d273dc8647ea3acc6f7723fbc650d9a816d0a24aa25134baa12f5e0ca026_Rock (2).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bobbing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bobbing11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite13.png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite14.png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite15.png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite16.png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite17.png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite18.png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite19.png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite20.png\"}",
+        "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite21.png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite22.png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite23.png\"}",
+        "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Thrown.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Thrown",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_sea.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiled_sea.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_sea.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Sea/5bf50b4a49b40cdab578d8eec6720ef953fb6f8309ce6e34c501bc9bd224d903_tiled_sea.png",
+          "name": "tiled_sea.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Empty Cloud Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1835a8e778f048485605f0cecdca221dccb5d4b05821f101c1fc05d239f422b2_tiled_Empty Cloud Background.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/1835a8e778f048485605f0cecdca221dccb5d4b05821f101c1fc05d239f422b2_tiled_Empty Cloud Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fab55e23b1b9048245fe0840530f53b1489018173fc5e96193060879148477f5_Letter Key_A.png",
+          "name": "Letter Key_A.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_B.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/126bda119546254f0fbdd90e1b8dcd23e3b77eaaf5f16b585e551235e3aa65cf_Letter Key_B.png",
+          "name": "Letter Key_B.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_C.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1001be05f9820e378a50faf844e52e4f03cabab41ec7c85d4500c452201eba79_Letter Key_C.png",
+          "name": "Letter Key_C.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_D.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/524b409877511931e2aeb27a5c0e64c659a6d8116a2994eb2c6cb306f355a61d_Letter Key_D.png",
+          "name": "Letter Key_D.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_E.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/42bddef28299ae2740f9b7991497f1ea3270d6e41f1c46c492a3b212e92107a3_Letter Key_E.png",
+          "name": "Letter Key_E.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_F.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/00aacdd3d32bdfb44a4808435346f528d8b310b79f22acbab440cf4331f33461_Letter Key_F.png",
+          "name": "Letter Key_F.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_G.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_G.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/9cb763801a917e743a4034a9dedeafdd1194ecaa740fe4cc89a8484f72ea76a4_Letter Key_G.png",
+          "name": "Letter Key_G.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_H.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/7a5a2bb1bc3dcb2d895ca9d2d7f5c27b70d209c9be4a2765828540d323ead65f_Letter Key_H.png",
+          "name": "Letter Key_H.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_I.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_I.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6f8bcac8523e668399b00320f4b940db8c4620360020dc41f13c4de4733e52b8_Letter Key_I.png",
+          "name": "Letter Key_I.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_J.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/4843677898fe5ebce52076439462c2f608cb5dc9b2df56e432dc2f60259ac9b9_Letter Key_J.png",
+          "name": "Letter Key_J.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_K.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e34726d129f40610f2e72c84056b247ef7a78b20efd8122102d424dbd30e5ca6_Letter Key_K.png",
+          "name": "Letter Key_K.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_L.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/b29c6772f5912f445f8aeac857400c3ce9ddbaf0fcc03eab260025ad875db7f0_Letter Key_L.png",
+          "name": "Letter Key_L.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_M.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_M.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/592ecbc3bb46b8da125303604c944638e8773ded24e68fa88c6cffe4c2eea7c7_Letter Key_M.png",
+          "name": "Letter Key_M.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_N.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_N.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1887769c3c8159120fa7a68e6efb0974620419f8e68ffd49610ece282a6a52c3_Letter Key_N.png",
+          "name": "Letter Key_N.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_O.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_O.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fe6727e4432d08a8db058b222790feb5e8a7f7f6deeb2c014da7697df7f743c5_Letter Key_O.png",
+          "name": "Letter Key_O.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_P.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_P.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/123f70241f77e7c52da04081a4641cc8efec884d26958c2e0ef5c55b866d8dda_Letter Key_P.png",
+          "name": "Letter Key_P.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Q.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f6369b3279baa0199cd6b7c62d90cff93c429056ead2b5e2b1504f4f6a182e46_Letter Key_Q.png",
+          "name": "Letter Key_Q.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_R.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/4edfeaf2f4ca119321a3ab91eb54a5ed5eb56bd6152c9a46b711278b59b4ab13_Letter Key_R.png",
+          "name": "Letter Key_R.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_S.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_S.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/92524d8bcb433f51ec698f961e60a5ccc573a95ab79a245a0be6f3077d76ee24_Letter Key_S.png",
+          "name": "Letter Key_S.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_T.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_T.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/186c248d96fcbaf2651da3668f99eda7a902ee22014dfd7e522293c5072f379e_Letter Key_T.png",
+          "name": "Letter Key_T.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_U.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_U.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/c269283293a9bf354d5c0eb2a3a9614000ce8e5a40c81a9d11831fd755245503_Letter Key_U.png",
+          "name": "Letter Key_U.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_V.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_V.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/500e0490775968915130663e80cb224739950cf510382cf3df3e0d4e74578d6c_Letter Key_V.png",
+          "name": "Letter Key_V.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_W.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_W.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e2ef0c658b38d6704d5015d04327cc43782c9d9c4191ceb55d157e7e59af755f_Letter Key_W.png",
+          "name": "Letter Key_W.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_X.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e769271e5de79c78bfc2d8c99db1b39ab3eb9da146f3e6ce457aea2a4bd87e42_Letter Key_X.png",
+          "name": "Letter Key_X.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_Y.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Y.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/cbc9b030de34b8b5f5201f116cfb75ac5f1112eb7cc6a1304fb726d52866e271_Letter Key_Y.png",
+          "name": "Letter Key_Y.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_Z.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Z.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
+          "name": "Letter Key_Z.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swimming25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swimming25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect2.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.39111410365987975,\\\"sustain\\\":0.1848887255108118,\\\"sustainPunch\\\":0,\\\"decay\\\":1.95,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":6760.318696808665,\\\"frequencySweep\\\":-1500,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":62.400000000000006,\\\"frequencyJump1Onset\\\":50,\\\"frequencyJump1Amount\\\":-15,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":8,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":1300,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":6200,\\\"highPassCutoffSweep\\\":6800,\\\"compression\\\":1.4000000000000001,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect2\"},\"localFilePath\":\"assets/New sound effect2.wav\"}",
+        "name": "New sound effect2",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Esc Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Esc Key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/67bf8d3f8fa416d0338ad132d1875cb804751122206be524fa1461bbcf19bc1d_Esc Key.png",
+          "name": "Esc Key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []

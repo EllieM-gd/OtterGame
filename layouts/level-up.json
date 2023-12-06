@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 146,
   "disableInputWhenNotFocused": true,
   "mangledName": "Level_32Up",
   "name": "Level Up",
-  "r": 209,
+  "r": 10,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 94,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36458333333333337,
+    "zoomFactor": 0.4163025217733326,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -150,14 +150,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 310,
       "layer": "",
       "name": "Hunger_Filled_Text",
       "persistentUuid": "84f3aeea-19c1-4940-a556-3370f84576f5",
-      "width": 0,
+      "width": 421,
       "x": 1418,
-      "y": 463,
+      "y": 468,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -513,7 +514,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Increase\nmovement\nspeed\n\nCurrent: XX%\nNew: XX%",
+      "string": "Movement\nspeed\n\nCurrent: XX%\nNew: XX%",
       "font": "DePixelBreit.otf",
       "textAlignment": "center",
       "characterSize": 45,
@@ -534,7 +535,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Increase\nmaximum\nbreath\n\nCurrent: XX\nNew: XX",
+      "string": "Maximum\nbreath\n\nCurrent: XX\nNew: XX",
       "font": "DePixelBreit.otf",
       "textAlignment": "center",
       "characterSize": 45,
@@ -555,7 +556,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Increase\nmaximum\nhunger\n\nCurrent: XX\nNew: XX",
+      "string": "Maximum\nhunger\n\nCurrent: XX\nNew: XX",
       "font": "DePixelBreit.otf",
       "textAlignment": "center",
       "characterSize": 45,
@@ -576,7 +577,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Increase\nhunger gained\nfrom fish\n\nCurrent: XX\nNew: XX",
+      "string": "Hunger gained\nfrom fish\n\nCurrent: XX\nNew: XX",
       "font": "DePixelBreit.otf",
       "textAlignment": "center",
       "characterSize": 45,
@@ -897,7 +898,7 @@
                 "Speed_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"movement\" + NewLine() + \"speed \" + NewLine() + NewLine() + \"Current: \" + SubStr(ToString((GlobalVariable(Speed) - 1) * 100), 0, 2) + \"%\" + NewLine() + \"New: \" + SubStr(ToString((GlobalVariable(Speed) - 0.95) * 100), 0, 2) + \"%\""
+                "\"Movement\" + NewLine() + \"speed \" + NewLine() + NewLine() + \"Current: \" + SubStr(ToString((GlobalVariable(Speed) - 1) * 100), 0, 2) + \"%\" + NewLine() + \"New: \" + SubStr(ToString((GlobalVariable(Speed) - 0.95) * 100), 0, 2) + \"%\""
               ]
             },
             {
@@ -908,7 +909,7 @@
                 "Breath_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"maximum\" + NewLine() + \"breath\" + NewLine() + NewLine() +\"Current: \" + ToString(Breath) + NewLine() + \"New: \" + ToString(Breath + 4)"
+                "\"Maximum\" + NewLine() + \"breath\" + NewLine() + NewLine() +\"Current: \" + ToString(Breath) + NewLine() + \"New: \" + ToString(Breath + 4)"
               ]
             },
             {
@@ -919,7 +920,7 @@
                 "Max_Hunger_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"maximum\" + NewLine() + \"hunger\" + NewLine() + NewLine() + \"Current: \" + ToString(Hunger) + NewLine() + \"New: \" + ToString(Hunger + 4)"
+                "\"Maximum\" + NewLine() + \"hunger\" + NewLine() + NewLine() + \"Current: \" + ToString(Hunger) + NewLine() + \"New: \" + ToString(Hunger + 4)"
               ]
             },
             {
@@ -930,7 +931,7 @@
                 "Hunger_Filled_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"hunger gained\" + NewLine() + \"from fish\" + NewLine() + NewLine() + \"Current: \" + ToString(HungerFilled) + NewLine() + \"New: \" + ToString(HungerFilled + 1)"
+                "\"Hunger gained\" + NewLine() + \"from fish\" + NewLine() + NewLine() + \"Current: \" + ToString(HungerFilled) + NewLine() + \"New: \" + ToString(HungerFilled + 1)"
               ]
             }
           ]
@@ -958,7 +959,7 @@
                 "Speed_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"movement\" + NewLine() + \"speed\" + NewLine() + NewLine() + \"Current: \" + SubStr(ToString((GlobalVariable(Speed) - 1) * 100), 0, 1) + \"%\" + NewLine() + \"New: \" + SubStr(ToString((GlobalVariable(Speed) - 0.95) * 100), 0, 1) + \"%\""
+                "\"Movement\" + NewLine() + \"speed\" + NewLine() + NewLine() + \"Current: \" + SubStr(ToString((GlobalVariable(Speed) - 1) * 100), 0, 1) + \"%\" + NewLine() + \"New: \" + SubStr(ToString((GlobalVariable(Speed) - 0.95) * 100), 0, 1) + \"%\""
               ]
             }
           ]
@@ -986,7 +987,7 @@
                 "Speed_Text",
                 "Text",
                 "=",
-                "\"Increase\" + NewLine() + \"movement\" + NewLine() + \"speed\" + NewLine() + NewLine() + \"Current: \" + SubStr(ToString((GlobalVariable(Speed) - 1) * 100), 0, 1) + \"%\" + NewLine() + \"New: \" + SubStr(ToString((GlobalVariable(Speed) - 0.95) * 100), 0, 2) + \"%\""
+                "\"Movement\" + NewLine() + \"speed\" + NewLine() + NewLine() + \"Current: \" + SubStr(ToString((GlobalVariable(Speed) - 1) * 100), 0, 1) + \"%\" + NewLine() + \"New: \" + SubStr(ToString((GlobalVariable(Speed) - 0.95) * 100), 0, 2) + \"%\""
               ]
             }
           ]
@@ -1029,11 +1030,9 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Main Game\"",
                 ""
               ]
             }
@@ -1065,11 +1064,9 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Main Game\"",
                 ""
               ]
             }
@@ -1101,11 +1098,9 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Main Game\"",
                 ""
               ]
             }
@@ -1137,11 +1132,9 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Main Game\"",
                 ""
               ]
             }
